@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DhruviH530/Plan-Tour-/static/css/main.443dae32.css",
+    "main.js": "/DhruviH530/Plan-Tour-/static/js/main.1074a2c5.js",
+    "index.html": "/DhruviH530/Plan-Tour-/index.html",
+    "main.443dae32.css.map": "/DhruviH530/Plan-Tour-/static/css/main.443dae32.css.map",
+    "main.1074a2c5.js.map": "/DhruviH530/Plan-Tour-/static/js/main.1074a2c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.443dae32.css",
+    "static/js/main.1074a2c5.js"
+  ]
+}
