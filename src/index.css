@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,4 +16,119 @@
     to {
         transform: rotate(1turn);
     }
+=======
+/* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family:  sans-serif;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 6vh;
+    border: 7px dashed rgb(1,17,160);
+    border-radius: 20px;
+    padding: 1vh 5vw;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;   
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* align-items: center;  */
+     box-shadow: rgba(0, 0, 0,0.24) 0px 3px 8px;
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1 ;
+    object-fit: cover;
+}
+
+.tour-price{
+    font-size: 1.3rem;
+    color: green;
+}
+
+.tour-info{
+    margin: 20px 5px;
+
+}
+
+.tour-name{
+    font-size: 1.4rem;
+}
+
+.read-more{
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.btn-red{
+    margin-top: 18px;
+    border: 1px solid #b4161b;
+    padding: 10px 80px ;
+    cursor: pointer;
+    border-radius: 10px ;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #b4161b21;
+}
+
+.btn-red:hover{
+    background-color: red;
+    color: white;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-white{
+     margin-top: 18px;
+    border: 1px solid white ;
+    padding: 10px 80px ;
+    cursor: pointer;
+    border-radius: 10px ;
+    font-size: 18px;
+    font-weight: bold;
+    
+}   
+
+.btn-white:hover{
+    background-color: white;
+    color: black;
+>>>>>>> 0d724c905e9f06018547c00c37a6a4197c585379
 }
